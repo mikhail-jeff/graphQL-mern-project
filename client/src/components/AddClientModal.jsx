@@ -10,7 +10,11 @@ const AddClientModal = () => {
 	const [phone, setPhone] = useState('');
 
 	const [addClient] = useMutation(ADD_CLIENT, {
-		variables: { name, email, phone },
+		variables: {
+			name,
+			email,
+			phone,
+		},
 		update(cache, { data: { addClient } }) {
 			const { clients } = cache.readQuery({
 				query: GET_CLIENTS,
@@ -41,12 +45,16 @@ const AddClientModal = () => {
 		<>
 			<button
 				type='button'
-				className='btn btn-primary'
+				className='btn btn-dark'
 				data-bs-toggle='modal'
 				data-bs-target='#addClientModal'
 			>
 				<div className='d-flex align-items-center'>
-					<FaUserPlus className='me-2' /> <div>Add Client</div>
+					<FaUserPlus
+						className='me-2'
+						size='1.1rem'
+					/>
+					<div>Add Client</div>
 				</div>
 			</button>
 
@@ -77,36 +85,39 @@ const AddClientModal = () => {
 								<div className='mb-3'>
 									<label className='form-label'>Name</label>
 									<input
-										className='form-control'
+										className='form-control shadow-none'
 										type='text'
 										id='name'
 										value={name}
 										onChange={(e) => setName(e.target.value)}
 									/>
 								</div>
+
 								<div className='mb-3'>
 									<label className='form-label'>Email</label>
 									<input
-										className='form-control'
+										className='form-control shadow-none'
 										type='email'
 										id='email'
 										value={email}
 										onChange={(e) => setEmail(e.target.value)}
 									/>
 								</div>
+
 								<div className='mb-3'>
 									<label className='form-label'>Phone</label>
 									<input
-										className='form-control'
+										className='form-control shadow-none'
 										type='text'
 										id='phone'
 										value={phone}
 										onChange={(e) => setPhone(e.target.value)}
 									/>
 								</div>
+
 								<button
 									type='submit'
-									className='btn btn-primary'
+									className='btn btn-dark w-100'
 									data-bs-dismiss='modal'
 								>
 									Submit

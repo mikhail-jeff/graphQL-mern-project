@@ -12,7 +12,7 @@ const Clients = () => {
 	return (
 		<>
 			{!loading && !error && (
-				<table className='table table-striped table-light mt-3 table-bordered'>
+				<table className='table table-striped table-hover table-dark mt-3 table-bordered border-separate'>
 					<thead>
 						<tr>
 							<th>Name</th>
