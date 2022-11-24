@@ -4,9 +4,9 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-.navbar-brand {
+/* .navbar-brand {
 	color: #df3ca6;
-}
+} */
 
 .navbar-brand img {
 	width: 30px;
@@ -17,16 +17,16 @@ body {
 	font-size: 15px;
 }
 
-.btn-primary,
+/* .btn-primary,
 .bg-primary {
 	background-color: #df3ca6 !important;
 	border: none;
-}
+} */
 
-.btn-primary:hover {
+/* .btn-primary:hover {
 	background-color: #df3ca6;
 	opacity: 0.9;
-}
+} */
 
 .btn-secondary {
 	background-color: #7430f9;
