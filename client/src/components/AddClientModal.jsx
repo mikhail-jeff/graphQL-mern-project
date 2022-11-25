@@ -54,7 +54,7 @@ const AddClientModal = () => {
 						className='me-2'
 						size='1.1rem'
 					/>
-					<div>Add Client</div>
+					<div>New Client</div>
 				</div>
 			</button>
 

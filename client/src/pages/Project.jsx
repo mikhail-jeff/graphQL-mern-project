@@ -27,7 +27,7 @@ const Project = () => {
 						<DeleteProject projectId={data.project.id} />
 					</div>
 
-					<div className='mt-3'>
+					<div className='mt-5 px-3'>
 						<h2 className='fw-bold'>{data.project.name}</h2>
 						<p className='mb-0 pb-0'>
 							<span className='fw-bold'>Description: </span>

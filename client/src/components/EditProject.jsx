@@ -31,8 +31,8 @@ const EditProject = ({ project }) => {
 	};
 
 	return (
-		<div className='mt-5'>
-			<h3 className='fw-bold text-center'>Update Project Details</h3>
+		<div className='mt-5 px-3'>
+			<h3 className='fw-bold text-center mb-4'>Update Project Details</h3>
 			<form onSubmit={onSubmit}>
 				<div className='mb-3'>
 					<label className='form-label'>Name</label>

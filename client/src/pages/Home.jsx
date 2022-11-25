@@ -6,12 +6,14 @@ import Projects from '../components/Projects';
 const Home = () => {
 	return (
 		<>
-			<div className='d-flex gap-3 mb-4'>
-				<AddClientModal />
+			<div>
 				<AddProjectModal />
+				<Projects />
 			</div>
-			<Projects />
-			<Clients />
+			<div className='mt-3'>
+				<AddClientModal />
+				<Clients />
+			</div>
 		</>
 	);
 };

@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md';
 const ClientInfo = ({ client }) => {
 	return (
 		<>
-			<div className=''>
+			<div className='px-3'>
 				<h5 className='fw-bold'>Client Information</h5>
 				<ul className='list-group'>
 					<li className='list-group-item d-flex align-items-center'>

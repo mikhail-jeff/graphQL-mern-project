@@ -3,8 +3,8 @@ import React from 'react';
 const ProjectCard = ({ project }) => {
 	return (
 		<div className='col-md-12'>
-			<div className='card mb-3'>
-				<div className='card body p-3  bg-light'>
+			<div className='card mb-3 shadow-sm'>
+				<div className='card body p-3 bg-light'>
 					<div className='d-flex justify-content-between align-items-center p'>
 						<h3 className='card-tile fw-bold'>
 							{project.name}
