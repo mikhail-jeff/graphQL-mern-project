@@ -1,4 +1,4 @@
-import { SiPolymerproject } from 'react-icons/si';
+import { SiGoogletagmanager } from 'react-icons/si';
 
 const Header = () => {
 	return (
@@ -9,7 +9,7 @@ const Header = () => {
 					className=' text-decoration-none'
 				>
 					<div className='d-flex align-items-center text-dark'>
-						<SiPolymerproject className='h2 me-2' />
+						<SiGoogletagmanager className='h2 me-2' />
 						<div className='text-bold h2 fw-bold'>Project Manager</div>
 					</div>
 				</a>
